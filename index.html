@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Ordering App!!</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/dom.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12" style="padding: 0px;">
+              <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+                  <a class="navbar-brand" href="./index.html">  <img src="./images/app-logo.png" class="rounded-circle" alt="Cinque Terre" width="50" height="50"></a>
+              </nav>
+          </div>
+        </div>
+  </div>
+  <div class="container">
+    
+      <div class="row">
+          <div class="col-md-12">
+            <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names.." title="Type in a name">
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="btn-group">
+              <a class="btn btn-success dropdown-toggle" data-toggle="dropdown" href="#">Sort by <span class="caret"></span></a>
+              <ul class="dropdown-menu" id="dropdown-sort">
+                <li class="dropdown-item px-2"><a href="#">Sort by Rating</a></li>
+                <li class="dropdown-item px-2"><a href="#">Sort by ETA</a></li>
+              </ul>
+            </div>
+          </div>
+            <div class="col-md-4">
+            <div class="btn-group">
+                <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">filter by <span class="caret"></span></a>
+                <ul class="dropdown-menu" id="dropdown-filter">
+                  <li class="dropdown-item px-2"><a href="#">North Indian</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Fast Food</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Mughlai</a></li>
+                  <li class="dropdown-item px-2"><a href="#">American</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Indian</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Thalis</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Street Food</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Continental</a></li>
+                  <li class="dropdown-item px-2"><a href="#">South Indian</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Snacks</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Chinese</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Italian</a></li>
+                  <li class="dropdown-item px-2"><a href="#">Cafe</a></li>
+                </ul>
+            </div>
+          </div>
+            <div class="col-md-4">
+            <button class="btn btn-danger favourite-btn" onclick="seeAllFavouriteRestro()">Your Favourite Restro</button>
+          </div>
+      </div>
+
+
+      <div class="row" id="HotelList">
+      </div>
+    <h1 id="notificationMessage"></h1>
+    </div>
+
+    <script src="./js/dom.js"> </script>
+    <script src="./js/dropdown.js"> </script>
+</body>
+
+</html>

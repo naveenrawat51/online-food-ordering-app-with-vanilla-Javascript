@@ -1,0 +1,96 @@
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    margin-top: 0px;
+  }
+
+.checked {
+    color: white;
+    font-size: 13px;
+  }
+
+  .tags {
+    color: gray; 
+    font-size: 10px;
+  }
+
+  .rating {
+    background-color: #db7c38; 
+    display: inline; 
+    padding-left: 5px; 
+    padding-right: 5px;
+  }
+
+  .eta {
+    font-size: 11px; 
+    color: gray; 
+    padding-left:11px; 
+    padding-right: 11px;
+  }
+
+  .view-menu {
+    padding-left: 11px; 
+    padding-right: 11px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    background-color:seagreen; 
+    color: white; 
+    border-radius: 5px; 
+    font-size: 12px;
+  }
+
+  .view-menu:hover {
+      color: yellow;
+      text-decoration: none;
+  }
+
+  .card {
+      width: 250px;
+      margin-bottom: 30px;
+  }
+
+  .card-img-top {
+    width:100%
+  }
+  
+  .card-title {
+      font-size: 14px;
+      font-weight: bold;
+  }
+
+  #HotelList {
+      padding-top: 30px;
+  }
+
+  #fa-heart{
+      position: absolute;
+      font-size: 30px;
+      top: 0px;
+      right: 13px;
+      color: ghostwhite;
+  }
+  #fa-heart-red {
+    position: absolute;
+    font-size: 30px;
+    top: 0px;
+    right: 13px;
+    color: red;
+  }
+
+  #fa-heart:hover {
+      color: red;
+  }
+
+  #fa-heart:active {
+      color: red;
+  }
+
+  .bg-dark {
+      background-color: white !important; 
+  }
