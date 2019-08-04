@@ -11,8 +11,8 @@ let selectFilter = document.getElementById("dropdown-filter");
 let allHotelsDataCopy = [];
 
 // getting data using fetch form API folder
-let getData = () => fetch(".././api/hotels.json").then(data => data.json());
-
+//let getData = () => fetch(".././api/hotels.json").then(data => data.json());
+let getData = () => fetch("https://github.com/naveenrawat51/online-food-ordering-app-with-vanilla-Javascript/blob/master/api/hotels.json").then(data => data.json());
 // returns single hotel card
 let getHotelCard = singleHotelData => {
     // check on loading the view whether the hotel already in local storage then change class to show favourite icon red already
