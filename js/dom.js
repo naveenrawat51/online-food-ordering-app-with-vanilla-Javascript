@@ -11,7 +11,7 @@ let selectFilter = document.getElementById("dropdown-filter");
 let allHotelsDataCopy = [];
 
 // getting data using fetch form API folder
-let getData = () => fetch("/hotels.json").then(data => data.json());
+let getData = () => fetch("./hotels.json").then(data => data.json());
 
 // returns single hotel card
 let getHotelCard = singleHotelData => {
