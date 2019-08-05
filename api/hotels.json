@@ -6,7 +6,7 @@
       "rating": 4.2,
       "eta": 25,
       "tags": ["American", "Fast Food"],
-      "img": ".././images/1.png"
+      "img": "./images/1.png"
     },
     {
       "name": "Prince Ki Rasoi",
@@ -15,7 +15,7 @@
       "rating": 3.8,
       "eta": 30,
       "tags": ["North Indian", "Chinese", "Mughlai", "Fast Food"],
-      "img": ".././images/2.jpg"
+      "img": "./images/2.jpg"
     },
     {
       "name": "Aggarwal Sweets & Restaurant",
@@ -24,7 +24,7 @@
       "rating": 3.4,
       "eta": 25,
       "tags": ["North Indian", "Chinese", "Sweets"],
-      "img": ".././images/3.jpg"
+      "img": "./images/3.jpg"
     },
     {
       "name": "Rasoi",
@@ -33,7 +33,7 @@
       "rating": 3.9,
       "eta": 50,
       "tags": ["Indian", "Chinese", "North Indian"],
-      "img": ".././images/4.jpg"
+      "img": "./images/4.jpg"
     },
     {
       "name": "Fork with Sticks",
@@ -42,7 +42,7 @@
       "rating": 4.0,
       "eta": 44,
       "tags": ["Chinese", "Fast Food"],
-      "img": ".././images/5.jpg"
+      "img": "./images/5.jpg"
     },
     {
       "name": "South Store",
@@ -51,7 +51,7 @@
       "rating": 4.1,
       "eta": 53,
       "tags": ["American", "South Indian"],
-      "img": ".././images/6.jpg"
+      "img": "./images/6.jpg"
     },
     {
       "name": "Chinese Corner",
@@ -60,7 +60,7 @@
       "rating": 4.1,
       "eta": 47,
       "tags": ["Chinese", "Thai"],
-      "img": ".././images/7.jpg"
+      "img": "./images/7.jpg"
     },
     {
       "name": "Sandburg Shakes",
@@ -69,7 +69,7 @@
       "rating": 4.4,
       "eta": 51,
       "tags": ["Cafe", "Italian", "Healthy Food"],
-      "img": ".././images/8.jpg"
+      "img": "./images/8.jpg"
     },
     {
       "name": "Royal Spice",
@@ -78,7 +78,7 @@
       "rating": 4.1,
       "eta": 31,
       "tags": ["Indian", "Chinese", "Continental", "Snacks"],
-      "img": ".././images/9.jpg"
+      "img": "./images/9.jpg"
     },
     {
       "name": "Madurai Meenakshi Bhawan",
@@ -87,7 +87,7 @@
       "rating": 4.2,
       "eta": 25,
       "tags": ["American", "South Indian"],
-      "img": ".././images/10.jpg"
+      "img": "./images/10.jpg"
     },
     {
       "name": "Koolchas",
@@ -96,7 +96,7 @@
       "rating": 4.3,
       "eta": 53,
       "tags": ["North Indian", "Fast Food"],
-      "img": ".././images/11.jpg"
+      "img": "./images/11.jpg"
     },
     {
       "name": "Punjabi Chaap Corner",
@@ -105,7 +105,7 @@
       "rating": 3.8,
       "eta": 52,
       "tags": ["North Indian", "Fast Food"],
-      "img": ".././images/12.jpg"
+      "img": "./images/12.jpg"
     },
     {
       "name": "Burger BC",
@@ -114,7 +114,7 @@
       "rating": 4.1,
       "eta": 57,
       "tags": ["Fast Food","Continental"],
-      "img": ".././images/13.jpg"
+      "img": "./images/13.jpg"
     },
     {
       "name": "Mucchad's SamosaZz & More",
@@ -123,7 +123,7 @@
       "rating": 4.1,
       "eta": 43,
       "tags": ["Mughlai", "North Indian", "Street Food", "Fast Food"],
-      "img": ".././images/14.jpg"
+      "img": "./images/14.jpg"
     },
     {
       "name": "The Burger Homes",
@@ -132,7 +132,7 @@
       "rating": 3.9,
       "eta": 45,
       "tags": ["North Indian", "Fast Food"],
-      "img": ".././images/15.jpg"
+      "img": "./images/15.jpg"
     },
     {
       "name": "STANLEY KA DIBBA",
@@ -141,7 +141,7 @@
       "rating": 3.7,
       "eta": 41,
       "tags": ["American", "Thalis", "Indian", "Fast Food"],
-      "img": ".././images/16.jpg"
+      "img": "./images/16.jpg"
     }
 
   ]
